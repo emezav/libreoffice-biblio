@@ -1,0 +1,45 @@
+NAME
+Documentation of jstyle at: http://help.jabref.org/en/OpenOfficeIntegration
+APA-7-Ampersand
+
+PROPERTIES
+Title=""
+IsSortByPosition=false
+IsNumberEntries=false
+ReferenceParagraphFormat="Standard"
+ReferenceHeaderParagraphFormat="Standard"
+
+
+CITATION
+MaxAuthors=3
+MaxAuthorsFirst=20
+AuthorSeparator=" & "
+AuthorLastSeparator=" & "
+EtAlString=" et al."
+CitationSeparator=", "
+MultiCiteChronological=true
+BracketBefore="("
+BracketAfter=")"
+BracketBeforeInList="["
+BracketAfterInList="]"
+MinimumGroupingCount=3
+CitationCharacterFormat="Standard"
+FormatCitations=true
+GroupedNumbersSeparator="-"
+UniquefierSeparator=","
+InTextYearSeparator=" "
+YearSeparator=" "
+
+LAYOUT
+default=\begin{author}\format[Authors(LastFirst,NoComma,sep= & ,LastSep= & ,EtAl= et al.,20,9),]{\author}\end{author}\begin{year} (\year\uniq). \end{year}\begin{title}\format[RemoveLatexCommands]{\title}. \end{title}\begin{year}\year\uniq.\end{year}\begin{URL}\URL\format[RemoveLatexCommands]{\empty}\end{URL}
+article=\begin{author}\format[Authors(LastFirst,NoComma,sep= & ,LastSep= & ,EtAl= et al.,20,9),]{\author}\end{author}\begin{year} (\year\uniq).\end{year}\begin{title} \format[RemoveLatexCommands]{\title}.\end{title}<i>\begin{journal} \format[RemoveLatexCommands]{\journal},\end{journal}</i>\begin{volume} \format[RemoveLatexCommands]{\volume},\end{volume}\begin{pages} \format[RemoveLatexCommands,FormatPagesForHTML]{\pages}.\end{pages}\begin{URL} \URL\format[RemoveLatexCommands]{\empty}.\end{URL}
+book=\begin{author}\format[Authors(LastFirst,NoComma,sep= & ,LastSep= & ,EtAl= et al.,20,9),]{\author}\end{author}\begin{year} (\year\uniq).\end{year}<i>\begin{title} \format[RemoveLatexCommands]{\title}, (\end{title}</i>\begin{editor} \format[Authors(LastFirst,NoComma,sep= & ,LastSep= & ,EtAl= et al.,20,9),]{\editor}, Ed.;\end{editor}\begin{edition} \format[RemoveLatexCommands]{\edition} ed.,\end{edition}\begin{volume} Vol. \format[RemoveLatexCommands]{\volume}\end{volume}\begin{publisher} ). \format[RemoveLatexCommands]{\publisher}.\end{publisher}
+incollection=\begin{author}\format[Authors(LastFirst,NoComma,sep= & ,LastSep= & ,EtAl= et al.,20,9),]{\author}\end{author}\begin{year} (\year\uniq).\end{year}\begin{title} \format[RemoveLatexCommands]{\title}. In \end{title}\begin{editor}\format[Authors(LastFirst,NoComma,sep= & ,LastSep= & ,EtAl= et al.,20,9),]{\editor} (Ed.),\end{editor}<i>\begin{booktitle} \format[RemoveLatexCommands]{\booktitle} (\end{booktitle}</i>\begin{number}No. \format[RemoveLatexCommands]{\number};\end{number}\begin{edition}\format[RemoveLatexCommands]{\edition} ed.,\end{edition}\begin{volume} Vol. \format[RemoveLatexCommands]{\volume},\end{volume}\begin{pages} pp. \format[RemoveLatexCommands,FormatPagesForHTML]{\pages}).\end{pages}\begin{publisher}\format[RemoveLatexCommands]{\publisher}.\end{publisher}
+techreport=\begin{author}\format[Authors(LastFirst,NoComma,sep= & ,LastSep= & ,EtAl= et al.,20,9),]{\author}\end{author}\begin{year} (\year\uniq).\end{year}<i>\begin{title} \format[RemoveLatexCommands]{\title}\end{title}</i>\begin{number} (No. \format[RemoveLatexCommands]{\number}).\end{number}\begin{institution} \format[RemoveLatexCommands]{\institution}.\end{institution}\begin{URL} \URL\format[RemoveLatexCommands]{\empty}\end{URL}
+booklet=\begin{author} \format[Authors(LastFirst,NoComma,sep= & ,LastSep= & ,EtAl= et al.,20,9),]{\author}\end{author}\begin{year} (\year\uniq).\end{year}<i>\begin{booktitle} \format[RemoveLatexCommands]{\booktitle}.\end{booktitle}</i>\begin{howpublished} \format[RemoveLatexCommands]{\howpublished}.\end{howpublished}\begin{URL} \URL\format[RemoveLatexCommands]{\empty}\end{URL}
+inbook=\begin{author}\format[Authors(LastFirst,NoComma,sep= & ,LastSep= & ,EtAl= et al.,20,9),]{\author}\end{author}\begin{year} (\year\uniq).\end{year}\begin{title} \format[RemoveLatexCommands]{\title}. In \end{title}\begin{editor}\format[Authors(LastFirst,NoComma,sep= & ,LastSep= & ,EtAl= et al.,20,9),]{\editor}(Ed),\end{editor}<i>\begin{booktitle} \format[RemoveLatexCommands]{\booktitle}.\end{booktitle}</i>\begin{pages} (pp. \format[RemoveLatexCommands,FormatPagesForHTML]{\pages}).\end{pages}
+inproceedings=\begin{author}\format[Authors(LastFirst,NoComma,sep= & ,LastSep= & ,EtAl= et al.,20,9),]{\author}\end{author}\begin{year} (\year\uniq).\end{year}\begin{title} \format[RemoveLatexCommands]{\title}.\end{title}<i>\begin{editor} In \format[Authors(LastFirst,NoComma,sep= & ,LastSep= & ,EtAl= et al.,20,9),]{\editor} (Ed.),\end{editor}</i>\begin{booktitle} \format[RemoveLatexCommands]{\booktitle} (\end{booktitle}\begin{number}No. \format[RemoveLatexCommands]{\number};\end{number}\begin{volume}Vol. \format[RemoveLatexCommands]{\volume},\end{volume}\begin{pages} pp. \format[RemoveLatexCommands,FormatPagesForHTML]{\pages}).\end{pages}\begin{publisher} \format[RemoveLatexCommands]{\publisher}.\end{publisher}\begin{URL} \URL\format[RemoveLatexCommands]{\empty}\end{URL}
+masterthesis=\begin{author}\format[Authors(LastFirst,NoComma,sep= & ,LastSep= & ,EtAl= et al.,20,9),]{\author}\end{author}\begin{year} (\year\uniq).\end{year}<i>\begin{title} \format[RemoveLatexCommands]{\title}.\end{title}</i>\begin{school} [ Tesis de maestría, \format[RemoveLatexCommands]{\school}].\end{school}\begin{URL}\URL\format[RemoveLatexCommands]{\empty}\end{URL}
+manual=\begin{author}\format[Authors(LastFirst,NoComma,sep= & ,LastSep= & ,EtAl= et al.,20,9),]{\author}\end{author}\begin{year} (\year\uniq).\end{year}<i>\begin{title} \format[RemoveLatexCommands]{\title}.\end{title}</i>\begin{organization} \format[RemoveLatexCommands]{\organization}.\end{organization}\begin{URL} \URL\format[RemoveLatexCommands]{\empty}\end{URL}
+misc=\begin{author}\format[Authors(LastFirst,NoComma,sep= & ,LastSep= & ,EtAl= et al.,20,9),]{\author}\end{author}\begin{year} (\year\uniq).\end{year}<i>\begin{title} \format[RemoveLatexCommands]{\title}.\end{title}</i>\begin{URL} \URL\format[RemoveLatexCommands]{\empty}\end{URL}
+phdthesis=\begin{author}\format[Authors(LastFirst,NoComma,sep= & ,LastSep= & ,EtAl= et al.,20,9),]{\author}\end{author}\begin{year} (\year\uniq).\end{year}<i>\begin{title} \format[RemoveLatexCommands]{\title}.\end{title}</i>\begin{school} [ Tesis de doctorado, \format[RemoveLatexCommands]{\school}].\end{school}\begin{URL} \URL\format[RemoveLatexCommands]{\empty}\end{URL}

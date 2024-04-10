@@ -1,0 +1,45 @@
+NAME
+Documentation of jstyle at: http://help.jabref.org/en/OpenOfficeIntegration
+EfE-File
+
+PROPERTIES
+Title=""
+IsSortByPosition=true
+IsNumberEntries=true
+ReferenceParagraphFormat="Standard"
+ReferenceHeaderParagraphFormat="Standard"
+
+
+CITATION
+MaxAuthors=3
+MaxAuthorsFirst=2
+AuthorSeparator=" , "
+AuthorLastSeparator=" and "
+EtAlString=" et al."
+CitationSeparator=", "
+MultiCiteChronological=true
+BracketBefore="["
+BracketAfter="]"
+BracketBeforeInList="["
+BracketAfterInList="]"
+MinimumGroupingCount=3
+CitationCharacterFormat="Standard"
+FormatCitations=true
+GroupedNumbersSeparator="-"
+UniquefierSeparator=","
+InTextYearSeparator=" "
+YearSeparator=" "
+
+LAYOUT
+default=\begin{author} \format[Authors(FirstLast,sep= \, ,LastSep= and ,EtAl= et al.,2,2),]{\author}. \end{author}\begin{title}"\format[RemoveLatexCommands]{\title}", \end{title}\begin{address}\format[RemoveLatexCommands]{\address}, \end{address}\begin{year}\year\uniq.\end{year}
+article=\begin{author} \format[Authors(FirstLast,sep= \, ,LastSep= and ,EtAl= et al.,2,2),]{\author}, \end{author}\begin{title}"\format[RemoveLatexCommands]{\title}", \end{title}<i>\begin{journal}\format[RemoveLatexCommands]{\journal}, \end{journal}</i>\begin{volume}vol. \format[RemoveLatexCommands]{\volume}, \end{volume}\begin{number}no. \format[RemoveLatexCommands]{\number}, \end{number}\begin{pages}pp.\format[RemoveLatexCommands,FormatPagesForHTML]{\pages}, \end{pages}\begin{month}\format[RemoveLatexCommands]{\month} \end{month}\begin{year}\year\uniq.\end{year}
+book=\begin{author} \format[Authors(FirstLast,sep= \, ,LastSep= and ,EtAl= et al.,2,2),]{\author}, \end{author}<i>\begin{title}\format[RemoveLatexCommands]{\title}, \end{title}</i>\begin{edition}\format[RemoveLatexCommands]{\edition} ed. \end{edition}\begin{address}\format[RemoveLatexCommands]{\address}: \end{address}\begin{publisher}\format[RemoveLatexCommands]{\publisher}, \end{publisher}\begin{month}\format[RemoveLatexCommands]{\month} \end{month}\begin{year}\year\uniq, \end{year}\begin{volume}vol. \format[RemoveLatexCommands]{\volume}\end{volume}
+incollection=\begin{author} \format[Authors(FirstLast,sep= \, ,LastSep= and ,EtAl= et al.,2,2),]{\author}, \end{author}\begin{chapter}"\format[RemoveLatexCommands]{\chapter}", \end{chapter}<i>\begin{booktitle}in \format[RemoveLatexCommands]{\booktitle}, \end{booktitle}</i>\begin{edition}\format[RemoveLatexCommands]{\edition} ed. \end{edition}\begin{series}ser. \format[RemoveLatexCommands]{\series}, \end{series}\begin{editor}\format[Authors(FirstLast,sep= \, ,LastSep= and ,EtAl= et al.,2,2),]{\editor} Ed. \end{editor}\begin{address}\format[RemoveLatexCommands]{\address}: \end{address}\begin{publisher}\format[RemoveLatexCommands]{\publisher}, \end{publisher}\begin{month}\format[RemoveLatexCommands]{\month} \end{month}\begin{year}\year\uniq \end{year}\begin{volume}vol. \format[RemoveLatexCommands]{\volume}, \end{volume}\begin{number}ch. \format[RemoveLatexCommands]{\number}, \end{number}\begin{pages}pp. \format[RemoveLatexCommands,FormatPagesForHTML]{\pages}.\end{pages}
+report=\begin{author} \format[Authors(FirstLast,sep= \, ,LastSep= and ,EtAl= et al.,2,2),]{\author}, \end{author}\begin{title}"\format[RemoveLatexCommands]{\title}", \end{title}\begin{institution}\format[RemoveLatexCommands]{\institution}, \end{institution}\begin{address}\format[RemoveLatexCommands]{\address}, \end{address}\begin{number}Tech. Rep. \format[RemoveLatexCommands]{\number}, \end{number}\begin{month}\format[RemoveLatexCommands]{\month} \end{month}\begin{year}\year\uniq.\end{year}
+booklet=\begin{author} \format[Authors(FirstLast,sep= \, ,LastSep= and ,EtAl= et al.,2,2),]{\author}, \end{author}\begin{booktitle}"\format[RemoveLatexCommands]{\booktitle}", \end{booktitle}\begin{edition}\format[RemoveLatexCommands]{\edition},\end{edition}\begin{address}\format[RemoveLatexCommands]{\address} \end{address}\begin{publisher}\format[RemoveLatexCommands]{\publisher}, \end{publisher}\begin{month}\format[RemoveLatexCommands]{\month} \end{month}\begin{year}\year\uniq.\end{year}
+inbook=\begin{author} \format[Authors(FirstLast,sep= \, ,LastSep= and ,EtAl= et al.,2,2),]{\author}, \end{author}<i>\begin{booktitle}\format[RemoveLatexCommands]{\booktitle}, \end{booktitle}</i>\begin{edition}\format[RemoveLatexCommands]{\edition} ed. \end{edition}\begin{address}\format[RemoveLatexCommands]{\address}: \end{address}\begin{publisher}\format[RemoveLatexCommands]{\publisher}, \end{publisher}\begin{month}\format[RemoveLatexCommands]{\month} \end{month}\begin{year}\year\uniq, \end{year}\begin{volume}vol. \format[RemoveLatexCommands]{\volume}, \end{volume}\begin{chapter}ch. \format[RemoveLatexCommands]{\chapter}, \end{chapter}\begin{pages}pp.\format[RemoveLatexCommands,FormatPagesForHTML]{\pages}.\end{pages}
+inproceedings=\begin{author} \format[Authors(FirstLast,sep= \, ,LastSep= and ,EtAl= et al.,2,2),]{\author}, \end{author}\begin{title}"\format[RemoveLatexCommands]{\title}", \end{title}\begin{series}ser. \format[RemoveLatexCommands]{\series}, \end{series}\begin{editor}\format[Authors(FirstLast,sep= \, ,LastSep= and ,EtAl= et al.,2,2),]{\editor} Ed., \end{editor}\begin{volume}vol. \format[RemoveLatexCommands]{\volume}, \end{volume}\begin{organization}\format[RemoveLatexCommands]{\organization}. \end{organization}\begin{address}\format[RemoveLatexCommands]{\address}: \end{address}\begin{publisher}\format[RemoveLatexCommands]{\publisher}, \end{publisher}\begin{month}\format[RemoveLatexCommands]{\month}\end{month}\begin{year}\year\uniq, \end{year}\begin{pages}pp. \format[RemoveLatexCommands,FormatPagesForHTML]{\pages}.\end{pages}
+masterthesis=\begin{author} \format[Authors(FirstLast,sep= \, ,LastSep= and ,EtAl= et al.,2,2),]{\author}, \end{author}\begin{title}"\format[RemoveLatexCommands]{\title}" Master's thesis, \end{title}\begin{school}\format[RemoveLatexCommands]{\school}, \end{school}\begin{address}\format[RemoveLatexCommands]{\address}, \end{address}\begin{month}\format[RemoveLatexCommands]{\month} \end{month}\begin{year}\year\uniq.\end{year}
+manual=\begin{author} \format[Authors(FirstLast,sep= \, ,LastSep= and ,EtAl= et al.,2,2),]{\author}, \end{author}<i>\begin{title}\format[RemoveLatexCommands]{\title}\end{title}</i>\begin{edition}\format[RemoveLatexCommands]{\edition} ed., \end{edition}\begin{organization}\format[RemoveLatexCommands]{\organization}, \end{organization}\begin{address}\format[RemoveLatexCommands]{\address}, \end{address}\begin{month}\format[RemoveLatexCommands]{\month} \end{month}\begin{year}\year\uniq.\end{year}
+misc=\begin{author} \format[Authors(FirstLast,sep= \, ,LastSep= and ,EtAl= et al.,2,2),]{\author}, \end{author}\begin{title}"\format[RemoveLatexCommands]{\title}", \end{title}\begin{publisher}\format[RemoveLatexCommands]{\publisher}\end{publisher}\begin{month}\format[RemoveLatexCommands]{\month} \end{month}\begin{year}\year\uniq.\end{year}
+phdthesis=\begin{author} \format[Authors(FirstLast,sep= \, ,LastSep= and ,EtAl= et al.,2,2),]{\author}, \end{author}\begin{title}"\format[RemoveLatexCommands]{\title}" Ph. D. dissertation, \end{title}\begin{school}\format[RemoveLatexCommands]{\school}, \end{school}\begin{address}\format[RemoveLatexCommands]{\address}, \end{address}\begin{month}\format[RemoveLatexCommands]{\month} \end{month}\begin{year}\year\uniq.\end{year}
