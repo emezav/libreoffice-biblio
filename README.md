@@ -1,2 +1,5 @@
 # libreoffice-biblio
-LibreOffice Bibliography Management
+
+This repository contains a copy of some software required to use JabRef in combination with LibreOffice.
+
+
